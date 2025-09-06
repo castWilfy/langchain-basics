@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "book_name",
+        "length",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n            You are a professional book summarizer. \n            \n            Summarize the book \"{book_name}\" in a way that matches the following requirements:\n            - Style: {style}\n            - Length: {length}\n            \n            Ensure the summary is clear, engaging, and captures the core insights of the book.\n            ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
