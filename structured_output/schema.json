@@ -1,0 +1,24 @@
+{
+  "title": "Review Schema",
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "Concise summary of the review"
+    },
+    "sentiment": {
+      "type": "string",
+      "description": "Overall sentiment: positive, negative, or neutral"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address of the reviewer"
+    }
+  },
+  "required": [
+    "summary",
+    "sentiment",
+    "email"
+  ]
+}
